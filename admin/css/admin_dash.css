@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kim{
+	width: 7%;
+	hight: 7%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.button1{
+    background-color:#18ab29;
+    border: none;
+    color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ .navbar  {
+    background-color:#18ab29;
+ }
+
+ .navbar a {
+    color: green;
+ }
+
+/* Style the navigation menu */
+.navb1 {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navb1 a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navb1 a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navb1 a.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navb1 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 76%;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+form.example button {
+  float: center;
+  width: 10%;
+  padding: 10px;
+  background: #f1f1f1;
+  color: grey;
+  font-size: 17px;
+  border: 0px;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form.example button:hover {
+  background: limegreen;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.dn{
+    background: seagreen;
+    height: 80px;
+}
+
+.navbarz{
+    background-color:seagreen;
+}
+
+.navbarz a:hover {
+  background-color: purple;
+}
+
+.ctg a:hover {
+  background-color: orange;
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+ .footer {
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: seagreen;
+   color: white;
+   text-align: center;
+}
+p{
+    height: 40px;
+}
+
+.cart_img{
+  width:100px;
+  height: 50px;
+  object-fit: contain;
+}
