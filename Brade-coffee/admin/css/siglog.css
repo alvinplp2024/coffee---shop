@@ -1,0 +1,119 @@
+.bdy3 {
+
+  background-color: #3b141c;
+  font-family:sans-serif;
+
+}
+
+.signup-box {
+  width: 360px;
+  height: 700px;
+  margin: auto;
+  background-color: #49c1a2;
+  border-radius: 19px;
+  padding-bottom: 5px;
+  
+}
+
+.login-box {
+  padding-top: 2px;
+  width: 360px;
+  height: 420px;
+  margin: auto;
+  border-radius: 19px;
+  background-color: #49c1a2;
+}
+
+.register-box{
+  padding-top: 2px;
+  width: 360px;
+  height: 400px;
+  margin: auto;
+  border-radius: 19px;
+  background-color: lightblue;
+}
+
+.log-box {
+  padding-top: 2px;
+  width: 360px;
+  height: 430px;
+  margin: auto;
+  border-radius: 19px;
+  background-color: lightblue;
+}
+.bbtn{
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: seagreen;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none  ;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: seagreen;
+  color: white;
+  font-size: 20px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.per-1 {
+  text-align: right;
+  color: #3b141c;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+
+.para-2 a {
+  color: #49c1a2;
+}
+
